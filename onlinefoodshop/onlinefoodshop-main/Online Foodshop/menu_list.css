@@ -1,0 +1,76 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.5em;
+    background-color: black;
+  }
+  
+  .menu {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid rgb(218, 22, 22);
+  }
+  
+  .menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+  }
+  .btn
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    justify-content: center;
+    background-color: yellow;
+    background-attachment: fixed;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+.btn:hover{
+  background-color: white;
+  color: black;
+  font-size: 30px;
+
+}
+  .menu-item {
+    display: flex;
+  }
+  
+  .menu-item-image {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-text {
+    flex-grow: 1;
+    font-size: 20px;
+  }
+  
+  .menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .menu-item-name {
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-description {
+    line-height: 1.6;
+  }
+
+  
+  

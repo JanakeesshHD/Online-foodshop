@@ -1,0 +1,40 @@
+form{
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 600px;
+    height: 600px;
+    margin-top: 100px;
+    background-color: gray;
+    font-size: 20px;
+    
+}
+.form-shape
+{
+    margin-top: 25px;
+}
+#message{
+    height: 100px;
+    width: 435px;
+}
+#name{
+    height: 29px;
+    width: 500px;
+}
+#email{
+    height: 29px;
+    width: 477px;
+}
+#pho{
+    height: 29px;
+    width: 433px;
+}
+.btn{
+    height: 50px;
+    width: 100px;
+
+}
+.btn:hover{
+    background-color: brown;
+    color: white;
+
+}
