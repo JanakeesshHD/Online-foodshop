@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>payment form</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+    <form action="thnkyou.html" method="get">
+        <h1 class="main_heading">Payment form</h1> <hr>                
+        <h2 class="font">Contact information</h2>
+        <p class="size">Name:<input type="text" name="name" placeholder="full name" required></p>
+        <p>email:* <input type="email" name="email" placeholder="mail id" id="email" required></p>
+        <p>pincode:* <input type="number" name="pincode" placeholder="pincode" id="pincode" required></p>
+        <p>location:* <input type="text" name="location" placeholder=" enter your location" id="email" required></p>
+        <h2 class="font">payment information</h2>
+    <p>card type:
+        <select name="card-type" id="card-type" required>
+            <option value="">select your card type</option>
+            <option value="visa">Visa</option>
+            <option value="mastercard">mastercard</option>
+            <option value="rupay">rupay</option>
+
+        </select>
+    </p>
+    <p>
+        card number:* <input type="number" name="card number" id="card-number" required>
+    </p>
+    <p>
+        expiry date:* <input type="date" name="exp_date" placeholder="date" id="exp_date" required>
+    </p>
+    <p>
+        cvv:* <input type="password" name="cvv" id="cvv" required>
+    </p><br>
+    <p><b>Or Scan</b><p></p>
+    <img src="Scaner.jpeg" alt="no image"style="width:200px;height: 200px;">
+    <input id="pay" type="submit" value="pay now" required>
+
+
+    </form>
+</div>
+</body>
+</html>

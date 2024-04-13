@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	
+	<link rel="stylesheet" href="style.css">
+	<title>Contact Us</title>
+</head>
+
+<body> 
+<center>
+	<div id="ContactUs">
+		<h1>Contact Us</h1>
+		<form action="#">
+			<div class="form-shape">
+				<label for="query">
+					Type of Query
+				</label>
+				<select itemid="select" name="myQuery" id="query">
+					<option value="sel" selected>
+						Select
+					</option>
+					<option value="ord">
+						Order related Issues
+					</option>
+					<option value="Site">
+						Site related Issues
+					</option>
+					<option value="fed">
+						Complaint related Issues
+					</option>
+					<option value="others">
+						Others
+					</option>
+				</select><br><br>
+			</div>
+			<div class="form-shape">
+				<label for="name">Name</label>
+				<input class="select" type="text" name="myName"
+					id="name"
+					placeholder="Enter your Name"><br><br>
+			</div>
+			<div class="form-shape">
+				<label for="email">Email-Id</label>
+				<input  type="email" name="myEmail"
+					id="email"
+					placeholder="Enter your email"><br><br>
+			</div>
+			<div class="form-shape">
+				<label for="pho">Phone Number</label>
+				<input type="phone" name="myPhone"
+					id="pho"
+					placeholder="Enter your Phone no"><br><br>
+			</div>
+			<div class="form-shape">
+				<label for="message">
+					Give fedback
+				</label>
+				<input type="text" id="message" placeholder=" give your feedback" ><br><br>
+				<!--textarea name="mesg" id="message"
+					cols="30" rows="10">
+				</!--textarea><br><br-->
+			</div>
+			<input class="btn" type="submit" value="Submit">
+			<input class="btn" type="reset" value="Reset">
+		</form>
+	</div>
+</center>
+</body>
+
+</html>
+
